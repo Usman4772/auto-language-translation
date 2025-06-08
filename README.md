@@ -7,7 +7,7 @@ A lightweight and easy-to-use Node.js utility that **automatically detects the l
 ## 📦 Installation
 
 ```bash
-npm install auto-language-translator
+npm i detect-and-translate
 ```
 
 ---
@@ -28,7 +28,7 @@ This package provides two main functions:
 ### 🔍 A. Detect Language
 
 ```js
-const { detectLanguage } = require("auto-language-translator");
+const { detectLanguage } = require("detect-and-translate");
 
 console.log(detectLanguage("Bonjour, comment ça va?")); 
 // Output: "fr" (French)
@@ -39,7 +39,7 @@ console.log(detectLanguage("Bonjour, comment ça va?"));
 ### 🌐 B. Translate Text (Auto-Detect Source, Default to English)
 
 ```js
-const { detectLanguage, translate } = require("auto-language-translator");
+const { detectLanguage, translate } = require("detect-and-translate");
 
 // Translate function accepts three parameters:
 // - text: The text to be translated
@@ -63,7 +63,7 @@ async function runTranslation() {
 ### 🇫🇷 C. Translate Text to a Specific Language
 
 ```js
-const { detectLanguage, translate } = require("auto-language-translator");
+const { detectLanguage, translate } = require("detect-and-translate");
 
 // Translate function accepts three parameters:
 // - text: The text to be translated
