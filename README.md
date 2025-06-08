@@ -1,4 +1,4 @@
-# 🌍 auto language detect and language-translator
+# 🌍 Language Detector and Translator
 
 A lightweight and easy-to-use Node.js utility that **automatically detects the language** of a given text and translates it into your desired target language. Perfect for building multilingual apps, bots, or content processing tools.
 
